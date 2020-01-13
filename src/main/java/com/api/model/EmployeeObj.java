@@ -1,4 +1,4 @@
-package com.javatpoint.beans;
+package com.api.model;
 
 import java.util.ArrayList;
 import java.util.List;
