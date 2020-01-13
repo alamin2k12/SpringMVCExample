@@ -1,4 +1,4 @@
-package com.javatpoint.beans;  
+package com.api.model;  
   
 public class Emp {  
 private int id;  

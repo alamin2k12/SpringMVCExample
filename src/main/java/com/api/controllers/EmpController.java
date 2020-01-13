@@ -1,4 +1,4 @@
-package com.javatpoint.controllers;   
+package com.api.controllers;   
 import java.util.ArrayList;
 import java.util.List;  
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.javatpoint.beans.Emp;
-import com.javatpoint.beans.EmployeeObj;
-import com.javatpoint.dao.EmpDao;  
+import com.api.dao.EmpDao;
+import com.api.model.Emp;
+import com.api.model.EmployeeObj;  
 @RestController 
 public class EmpController {  
     
