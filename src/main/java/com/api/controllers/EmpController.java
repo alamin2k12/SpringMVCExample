@@ -86,11 +86,5 @@ public class EmpController {
         return empObj;
     } 
     
-    @RequestMapping (value="/employeeregistration" , method=RequestMethod.POST, consumes=MediaType.APPLICATION_JSON_VALUE, produces=MediaType.APPLICATION_JSON_VALUE)
-    public @ResponseBody String registerEmployee (@RequestBody Emp employee)
-    {
-    	String return_value="Registration Successful";
-    	
-    	return return_value;
-    }
+ 
 }  
